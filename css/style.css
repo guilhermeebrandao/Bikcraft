@@ -11,15 +11,26 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
-@import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/formulario.css";
+@import "./utilidades/tipografia.css";
 
+/* Bicicleta */
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
 /* Bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
 @import "./bicicletas/bicicletas.css";
 
-/* Seguros */
+/* Contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
 
+/* Orçamento */
+
+@import "./orcamento/orcamento.css";
+
+/* Seguros */
 @import "./seguros/perguntas.css";
 @import "./seguros/seguros.css";
 @import "./seguros/vantagens.css";
