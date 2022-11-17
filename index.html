@@ -6,17 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com Bikcraft">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
-
 
   <title>Bikcraft - Bicicletas Elétricas</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https: //fonts.googleapis.com/css2?family= Merriweather:ital,wght@1,900 & display =família= Poppins:wght@400;600 &família= Roboto:wght@400;500 & swap" rel="stylesheet">
+
+
 </head>
 
 <body>
   <header class="header-bg">
     <div class="header container">
-      <a href="./"><img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
+      <a href="./index.html"><img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
       </a>
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m cor-0">
@@ -27,15 +34,15 @@
       </nav>
     </div>
   </header>
-  <main class="introducao-bg">
+  <main class="introducao-bg ">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
           Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+        <a class="botao fadeInDown" data-anime="600" href="./bicicletas.html">Escolha a sua</a>
       </div>
-      <picture>
+      <picture class="fadeInDown" data-anime="800">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
       </picture>
@@ -152,7 +159,7 @@
 
   <footer class="footer-bg">
     <div class="footer container">
-      <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
+      <a href="./index.html"><img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
       <div class="footer-contato">
         <h3 class="font-2-lb cor-0">Contato</h3>
         <ul class="font-2-m cor-5">
@@ -186,6 +193,6 @@
 
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
-
-</html>
